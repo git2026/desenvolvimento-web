@@ -1,4 +1,4 @@
-Projeto de Desenvolvimento Web
+## Projeto de Desenvolvimento Web
 
 Criação de Website E-Commerce que permite explorar produtos, adicionar ao carrinho, realizar o checkout, gerir conta de utilizadores e produtos através de um backend administrativo.
 
@@ -46,4 +46,5 @@ tables.sql
 
 ## Licença
 GNU v3.0
+
 
