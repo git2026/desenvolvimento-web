@@ -46,7 +46,3 @@ tables.sql
 
 ## Licença
 GNU v3.0
-
-## Créditos
-Imagens utilizadas apenas para fins educativos.
-
