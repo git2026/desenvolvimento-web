@@ -12,7 +12,7 @@ No projeto, foram utilizadas as seguintes tecnologias e recursos:
 
 ## 2. Requisitos para Execução do Site
 1. Inicie o **XAMPP** e execute os serviços do **Apache** e **MySQL**.
-2. No navegador, aceda a `http://localhost/phpmyadmin` e crie a base de dados `php_projects`. Em seguida, **importe** o ficheiro `tables.sql` (incluído no projeto) para criar e povoar as tabelas.
+2. No navegador, aceda a `http://localhost/phpmyadmin` e crie a base de dados `php_projects`. Em seguida, **importe** o ficheiro `tables.sql` (incluído no projeto) para criar as tabelas.
 3. Configure as credenciais de base de dados em `server/connection.php` (host, nome da base de dados, utilizador e password).
 4. Na raiz do projeto, execute o servidor embutido do PHP:
    ```bash
@@ -46,3 +46,4 @@ tables.sql
 
 ## Licença
 GNU v3.0
+
