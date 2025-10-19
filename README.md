@@ -4,8 +4,6 @@ Sistema de detecção de fake news que utiliza algoritmos de ML para classificar
 
 ## 1. Ferramentas e Tecnologias Utilizadas
 
-No projeto, foram utilizadas as seguintes tecnologias:
-
 **Linguagem de Programação:** Python para desenvolvimento do algoritmo de machine learning
 
 **Bibliotecas de Machine Learning:** scikit-learn para implementação dos algoritmos de classificação
@@ -49,3 +47,4 @@ inteligencia-artificial/
 
 ## Licença
 GNU v3.0
+
