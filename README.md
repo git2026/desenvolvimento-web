@@ -1,48 +1,47 @@
-# Projeto de Inteligência Artificial
+Projeto de Desenvolvimento Web
 
-Sistema de detecção de fake news que utiliza algoritmos de ML para classificar notícias em verdadeiras ou falsas, permitindo análise de texto e avaliação de diferentes modelos de classificação.
+Criação de Website E-Commerce que permite explorar produtos, adicionar ao carrinho, realizar o checkout, gerir conta de utilizadores e produtos através de um backend administrativo.
 
 ## 1. Ferramentas e Tecnologias Utilizadas
+No projeto, foram utilizadas as seguintes tecnologias e recursos:
 
-**Linguagem de Programação:** Python para desenvolvimento do algoritmo de machine learning
+- **Frontend**: HTML, CSS, Bootstrap e JavaScript
+- **Backend**: PHP para a lógica de servidor e renderização dinâmica
+- **Base de Dados**: MySQL para armazenamento de produtos, utilizadores, comentários e pedidos
+- **Estilo e Recursos**: Google Fonts, ícones do Font Awesome e imagens locais na pasta `assets/imgs`
 
-**Bibliotecas de Machine Learning:** scikit-learn para implementação dos algoritmos de classificação
+## 2. Requisitos para Execução do Site
+1. Inicie o **XAMPP** e execute os serviços do **Apache** e **MySQL**.
+2. No navegador, aceda a `http://localhost/phpmyadmin` e crie a base de dados `php_projects`. Em seguida, **importe** o ficheiro `tables.sql` (incluído no projeto) para criar as tabelas.
+3. Configure as credenciais de base de dados em `server/connection.php` (host, nome da base de dados, utilizador e password).
+4. Na raiz do projeto, execute o servidor embutido do PHP:
+   ```bash
+   php -S localhost:8000
+   ```
+5. No navegador, aceda a `http://localhost:8000/front_page.php`.
+   
+7. Caso queria pode aceder ao painel administrativo com o e-mail `admin@gmail.com` e password `admin`.
 
-**Algoritmos Utilizados:** Regressão Logística, SVM (Support Vector Machine), Naive Bayes e Floresta Aleatória
-
-**Processamento de Dados:** Biblioteca datasets para carregamento e manipulação do dataset
-
-**Visualização:** matplotlib para criação de gráficos e análise de resultados
-
-**Dataset:** [ErfanMoosaviMonazzah/fake-news-detection-dataset-English](https://huggingface.co/datasets/ErfanMoosaviMonazzah/fake-news-detection-dataset-English) do Hugging Face
-
-## 2. Requisitos para Execução do Projeto
-
-Instale as dependências necessárias:
-```bash
-pip install datasets scikit-learn matplotlib
-```
-
-Execute o código principal:
-```bash
-python Codigo_AI.py
-```
-**Nota:** O código foi desenvolvido para execução no Google Colab, contendo comandos específicos para essa plataforma.
+---
 
 ## Estrutura do Projeto
-
 ```
-inteligencia-artificial/
-├── Codigo_AI.py              # Script principal com algoritmos de ML
-├── dataset/                  # Conjunto de dados para treino e teste
-│   ├── train.tsv            # Dados de treino
-│   ├── test.tsv             # Dados de teste
-│   └── validation.tsv       # Dados de validação
-├── docs/                    # Documentação do projeto
-│   ├── Proposta AI.docx     # Proposta inicial do projeto
-│   ├── Relatório de AI.docx # Relatório final
-│   └── Video_AI.mkv         # Vídeo demonstrativo
-└── README.md               # Este ficheiro
+assets/
+  css/style.css
+  imgs/
+server/
+  connection.php
+  get_products.php
+account.php
+cart.php
+checkout.php
+contact.html
+front_page.php
+register.php
+shop_admin.php
+shop.php
+single_product.php
+tables.sql
 ```
 
 ## Licença
