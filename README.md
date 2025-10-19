@@ -1,16 +1,21 @@
 # Projeto de Inteligência Artificial
 
-Sistema de detecção de fake news que utiliza algoritmos de machine learning para classificar notícias em verdadeiras ou falsas, permitindo análise de texto e avaliação de diferentes modelos de classificação.
+Sistema de detecção de fake news que utiliza algoritmos de ML para classificar notícias em verdadeiras ou falsas, permitindo análise de texto e avaliação de diferentes modelos de classificação.
 
 ## 1. Ferramentas e Tecnologias Utilizadas
 
-No projeto, foram utilizadas as seguintes tecnologias e recursos:
+No projeto, foram utilizadas as seguintes tecnologias:
 
 **Linguagem de Programação:** Python para desenvolvimento do algoritmo de machine learning
+
 **Bibliotecas de Machine Learning:** scikit-learn para implementação dos algoritmos de classificação
+
 **Algoritmos Utilizados:** Regressão Logística, SVM (Support Vector Machine), Naive Bayes e Floresta Aleatória
+
 **Processamento de Dados:** Biblioteca datasets para carregamento e manipulação do dataset
+
 **Visualização:** matplotlib para criação de gráficos e análise de resultados
+
 **Dataset:** [ErfanMoosaviMonazzah/fake-news-detection-dataset-English](https://huggingface.co/datasets/ErfanMoosaviMonazzah/fake-news-detection-dataset-English) do Hugging Face
 
 ## 2. Requisitos para Execução do Projeto
@@ -24,7 +29,6 @@ Execute o código principal:
 ```bash
 python Codigo_AI.py
 ```
-
 **Nota:** O código foi desenvolvido para execução no Google Colab, contendo comandos específicos para essa plataforma.
 
 ## Estrutura do Projeto
@@ -44,5 +48,4 @@ inteligencia-artificial/
 ```
 
 ## Licença
-
 GNU v3.0
